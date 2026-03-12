@@ -1,0 +1,61 @@
+{
+  "evaluation_metadata": {
+    "jd": "Senior ML Engineer – Generative AI Platform",
+    "created_by": "manual_labeling",
+    "label_schema": {
+      "1.0": "Good Match — strong on required skills, experience, and seniority",
+      "0.5": "Partial Match — some requirements met, notable gaps exist",
+      "0.0": "Poor Match — significant mismatch on core requirements"
+    }
+  },
+  "candidates": [
+    {
+      "id": "01_priya_sharma",
+      "ground_truth_label": 1.0,
+      "label_string": "Good Match",
+      "reasoning": "7yr XP, production LangGraph multi-agent system, RAG, LLM eval, fintech domain, mentoring — nearly perfect fit"
+    },
+    {
+      "id": "02_james_wu",
+      "ground_truth_label": 0.75,
+      "label_string": "Good Match (slight gap)",
+      "reasoning": "Strong GenAI skills, production RAG at scale, good eval experience. Missing regulated industry and multi-agent ownership."
+    },
+    {
+      "id": "03_alex_nguyen",
+      "ground_truth_label": 0.25,
+      "label_string": "Partial Match (junior)",
+      "reasoning": "Right technology stack but only 2.5yr XP, mostly assisting senior engineers. JD requires 5+ years of ownership."
+    },
+    {
+      "id": "04_sarah_okonkwo",
+      "ground_truth_label": 0.5,
+      "label_string": "Partial Match",
+      "reasoning": "Strong regulated industry background (banking) and MLOps. But GenAI experience is only POC-level. Missing LangGraph, vector DBs, LLM eval in production."
+    },
+    {
+      "id": "05_michael_patel",
+      "ground_truth_label": 0.15,
+      "label_string": "Poor Match",
+      "reasoning": "Strong backend engineer but zero ML/AI building experience. Only consumed ML APIs, never built. No RAG, LLMs, or agents."
+    },
+    {
+      "id": "06_ryan_taylor",
+      "ground_truth_label": 0.1,
+      "label_string": "Poor Match (adversarial)",
+      "reasoning": "Looks like ML experience on surface but all claims are vague with no evidence. No quantified impact, no production systems. High exaggeration signal."
+    },
+    {
+      "id": "07_chen_li",
+      "ground_truth_label": 0.85,
+      "label_string": "Good Match",
+      "reasoning": "Exceptional depth in RAG, LLM eval, fine-tuning, LangGraph. Published research. Production deployment. Slight mismatch: research-heavy background, may be overqualified."
+    },
+    {
+      "id": "08_jessica_brown",
+      "ground_truth_label": 0.0,
+      "label_string": "Poor Match",
+      "reasoning": "Marketing analytics background. No ML engineering, no LLMs, no Python beyond pandas. Clear domain mismatch."
+    }
+  ]
+}
